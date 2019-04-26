@@ -1,0 +1,24 @@
+{
+  "name": "heathercoraje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next start",
+    "dev": "next",
+    "build": "next build",
+    "format": "prettier --loglevel warn --write '**/*.{ts,js,json,jsx,tsx,md}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
